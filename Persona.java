@@ -1,9 +1,9 @@
 public class Persona {
-    private String nombre;
-    private int ID;
-    private String nivelDeAcceso;
-    private String horaEntrada;
-    private String horaSalida;
+    public String nombre;
+    public int ID;
+    public String nivelDeAcceso;
+    public String horaEntrada;
+    public String horaSalida;
 
     public Persona(String nombre, int ID, String nivelDeAcceso, String horaEntrada, String horaSalida) {
         this.nombre = nombre;
