@@ -7,7 +7,7 @@ public class Jefe extends Persona {
         System.out.println(getNombre() + " tiene un alto nivel de autorización.");
     }
 
-    public void registrarDatosEmpleados() {
+    private void registrarDatosEmpleados() {
         System.out.println(getNombre() + " está registrando los datos de los empleados.");
     }
 }
