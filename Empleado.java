@@ -7,7 +7,7 @@ public class Empleado extends Persona {
         System.out.println(getNombre() + " está atendiendo a un cliente.");
     }
 
-    public void resolverProblemas() {
+    private void resolverProblemas() {
         System.out.println(getNombre() + " está resolviendo problemas.");
     }
 }
