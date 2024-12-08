@@ -1,5 +1,5 @@
 public class Coordinador extends Persona {
-    private String departamentoACargo;
+    public String departamentoACargo;
 
     public Coordinador(String nombre, int ID, String nivelDeAcceso, String horaEntrada, String horaSalida, String departamentoACargo) {
         super(nombre, ID, nivelDeAcceso, horaEntrada, horaSalida);
@@ -10,7 +10,4 @@ public class Coordinador extends Persona {
         return departamentoACargo;
     }
 
-    public void supervisarDepartamento() {
-        System.out.println(getNombre() + " está supervisando el departamento de " + departamentoACargo + ".");
-    }
 }
